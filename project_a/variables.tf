@@ -7,3 +7,4 @@ variable "project_a_number_var" {
   type = number
   description = "Your Favorite Number"
 }
+
