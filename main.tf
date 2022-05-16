@@ -12,3 +12,7 @@ resource "random_pet" "pet" {
 }
 
 data "environment_variables" "all" {}
+
+output "env-vars" {
+  value = data.environment_variables.all.items
+}
