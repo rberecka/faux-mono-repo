@@ -10,3 +10,5 @@ terraform {
 resource "random_pet" "pet" {
   length           = var.word_count
 }
+
+data "environment_variables" "all" {}

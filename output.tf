@@ -1,4 +1,3 @@
-data "environment_variables" "all" {}
 output "print-them-all" {
   value = <<EOT
     *** From root.auto.tfvars ***
