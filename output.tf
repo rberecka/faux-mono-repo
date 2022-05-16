@@ -4,7 +4,7 @@ output "print-them-all" {
     AutoVar: ${var.auto_number_var}
     *** values set in editor ***
     StringVar: ${var.string_var}
-    NumberVar: ${var.number_var}
+    WordCountVar: ${var.word_count}
     *** values set in varsets ***
     WorkspaceVarsetVar: ${var.workspace_varset_var}
     GlobalVarsetVar: ${var.global_varset_var}
