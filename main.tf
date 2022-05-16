@@ -15,7 +15,7 @@ resource "random_pet" "pet" {
   length           = var.word_count
 }
 
-data "environment_variables" "all" {}
+data "environment_variables" "env_var" {}
 
 output "env-vars" {
   value = data.environment_variables.env_var
