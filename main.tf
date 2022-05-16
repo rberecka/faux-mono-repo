@@ -4,6 +4,10 @@ terraform {
       source = "hashicorp/random"
       version = "3.1.2"
     }
+    environment = {
+      source  = "EppO/environment"
+      version = "1.1.0"
+    }
   }
 }
 
