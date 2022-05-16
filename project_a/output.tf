@@ -1,7 +1,10 @@
+data "environment_variables" "all" {}
 output "print-them-all" {
   value = <<EOT
     *** From root.auto.tfvars ***
     AutoVar: ${var.auto_number_var}
+    *** Environment Variables ***
+    ${data.environment_variables.all.items}
     *** values set in editor ***
     StringVar: ${var.project_a_string_var}
     WordCountVar: ${var.project_a_word_count_var}
