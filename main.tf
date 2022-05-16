@@ -16,7 +16,7 @@ resource "random_pet" "pet" {
 }
 
 data "environment_variables" "all" {
-  filter    = "TOKEN"
+  filter    = "MY_ENV_VAR"
   sensitive = true
 }
 
