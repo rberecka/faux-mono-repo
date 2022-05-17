@@ -32,7 +32,7 @@ Your variable config should look like this:
 <img width="798" alt="image" src="https://user-images.githubusercontent.com/12437993/168701401-138831e2-3b81-4142-ad00-38d470647f50.png">
 
 Key things to note:
-The environment variable, the auto var, and the global varset var should not come up as pending variables.
+The environment variable,a nd the global varset var should not come up as pending variables.
 
 The output of a run should look like this:
 <img width="1188" alt="image" src="https://user-images.githubusercontent.com/12437993/168701579-16e94f50-8a9d-4efa-9d64-386362edcdcc.png">
@@ -52,7 +52,7 @@ Select a different working directory
 
 **Result**
 Key things to note:
-* The environment variable, the auto var, and the global varset var should not come up as pending variables.
+* The environment variable and the global varset var should not come up as pending variables.
 * The auto var from the root directory should also not come up as a pending variable
 * The output should only contain variables and values attached to the project_a (or b if you picked b)
 
