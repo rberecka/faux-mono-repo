@@ -1,2 +1,2 @@
-auto_number_var = 1
+auto_number_var = 100
 
