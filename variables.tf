@@ -22,9 +22,3 @@ variable "global_varset_var" {
   type = string
   description = "Value set global varset"
 }
-
-
-variable "new_unwanted_string_var" {
-  type = string
-  description = " Can be 'foo' or any other silly string."
-}
